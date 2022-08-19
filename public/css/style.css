@@ -1,0 +1,55 @@
+body {
+  padding: 20px;
+  font-size: 18px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+legend {
+  font-size: 24px;
+}
+
+img {
+  display: inline-block;
+  width: 200px;
+  max-width: 100%;
+  border: 8px solid white;
+}
+
+fieldset div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label img {
+  border: 8px solid blueviolet;
+}
+
+input:checked + label {
+  color: blueviolet;
+  border-color: blueviolet;
+}
+
+button {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  height: 80px;
+}
+
+#error {
+  display: none;
+  color: red;
+}
